@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[fleqn]{amsmath}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{cancel}
+\usepackage{amssymb}
+\usepackage{polski}
+
+\titleformat{\section}[block]{\normalfont\large\bfseries}{\thesection}{0pt}{}
+\titlespacing*{\section}{0pt}{3ex}{2ex}
+
+\makeatletter
+\renewcommand{\@maketitle}{
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{flushleft}%
+    {\LARGE\bfseries \@title \par}%
+    \vskip 1.5em%
+    {\large \@date}%
+  \end{flushleft}%
+  \par
+  \vskip 1.5em}
+\makeatother
+
+\title{Temat}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Zadanie}
+Wykaż, że
+\begin{gather*}
+	\text{Rozwiązanie}
+\end{gather*}
+
+\end{document}
