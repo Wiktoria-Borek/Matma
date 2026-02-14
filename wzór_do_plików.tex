@@ -1,39 +1,23 @@
 \documentclass{article}
-\usepackage[fleqn]{amsmath}
-\usepackage{parskip}
-\usepackage{titlesec}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{cancel}
-\usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{polski}
+\hbadness=10000 % Suppress underfull hbox warnings
 
-\titleformat{\section}[block]{\normalfont\large\bfseries}{\thesection}{0pt}{}
-\titlespacing*{\section}{0pt}{3ex}{2ex}
-
-\makeatletter
-\renewcommand{\@maketitle}{
-  \newpage
-  \null
-  \vskip 2em%
-  \begin{flushleft}%
-    {\LARGE\bfseries \@title \par}%
-    \vskip 1.5em%
-    {\large \@date}%
-  \end{flushleft}%
-  \par
-  \vskip 1.5em}
-\makeatother
-
-\title{Temat}
+\title{Poziom}
+\author{Wiktoria Borek}
 \date{}
 
 \begin{document}
 
 \maketitle
 
-\section*{Zadanie}
-Wykaż, że
-\begin{gather*}
-	\text{Rozwiązanie}
-\end{gather*}
+\section{Temat}
+\subsection{Zadanie}
+Polecenie zadania.
+\subsubsection*{Rozwiązanie}
+Rozwiązanie zadania.
 
 \end{document}
