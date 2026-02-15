@@ -44,4 +44,17 @@ Dane są liczby $a=\log_3{2}$ oraz $b=\log_{2^{2024}}{3^{1012}} + \log_{\frac{1}
 $
   b = \frac{1}{2} \cdot \log_2{3} - \log_3{(27 \cdot 2)} = \frac{1}{2} \cdot \frac{1}{a} - (\log_3{3^3} + a) = \frac{1}{2a} - 3 - a
 $
+\subsection{Zadanie}
+Wiadomo, że $\frac{1}{\log_{p-q}{2}} = 3$ oraz $(\log_{pq}{3})^{-1}=2$. Udowodnij, że liczba \\
+$\sqrt{p^2 - 1 + q^2}$ jest wymierna.
+\subsubsection*{Rozwiązanie}
+$
+  \log_{2}{p-q} = 3 \quad \land \quad \log_{3}{pq} = 2 \rightarrow pq = 3^2 = 9 \\
+  p-q = 2^3 \; / \; ^2 \\
+  (p-q){^2} = 64 \\
+  p^2 + q^2 - 2pq = 64 \\
+  p^2 + q^2 = 82 \\
+  \\
+  \sqrt{p^2 - 1 + q^2} = \sqrt{p^2 + q^2 - 1} = \sqrt{82 - 1} = \sqrt{81} = 9 \in \mathbb{Q} \quad \blacksquare
+$
 \end{document}
